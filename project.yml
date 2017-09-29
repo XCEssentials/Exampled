@@ -6,7 +6,7 @@ configurations:
   Debug:
     type: "debug"
     overrides:
-      IPHONEOS_DEPLOYMENT_TARGET: "8.0"
+      IPHONEOS_DEPLOYMENT_TARGET: "9.0"
       SWIFT_VERSION: "3.0"
       VERSIONING_SYSTEM: "apple-generic"
       CURRENT_PROJECT_VERSION: "0"
@@ -15,7 +15,7 @@ configurations:
   Release:
     type: "release"
     overrides:
-      IPHONEOS_DEPLOYMENT_TARGET: "8.0"
+      IPHONEOS_DEPLOYMENT_TARGET: "9.0"
       SWIFT_VERSION: "3.0"
       VERSIONING_SYSTEM: "apple-generic"
       CURRENT_PROJECT_VERSION: "0"
@@ -29,7 +29,7 @@ targets:
     configurations:
       Debug:
         PRODUCT_NAME: "XCEExampled"
-        IPHONEOS_DEPLOYMENT_TARGET: "8.0"
+        IPHONEOS_DEPLOYMENT_TARGET: "9.0"
         PRODUCT_BUNDLE_IDENTIFIER: "io.XCEssentials.Exampled"
         INFOPLIST_FILE: "Info/Fwk.plist"
         ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: "$(inherited)"
@@ -40,7 +40,7 @@ targets:
         MTL_ENABLE_DEBUG_INFO: "true"
       Release:
         PRODUCT_NAME: "XCEExampled"
-        IPHONEOS_DEPLOYMENT_TARGET: "8.0"
+        IPHONEOS_DEPLOYMENT_TARGET: "9.0"
         PRODUCT_BUNDLE_IDENTIFIER: "io.XCEssentials.Exampled"
         INFOPLIST_FILE: "Info/Fwk.plist"
         ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: "$(inherited)"
